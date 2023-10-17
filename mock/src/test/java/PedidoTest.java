@@ -27,7 +27,7 @@ public class PedidoTest {
 
     @Test
     public void testCalcularValorTotalComDesconto() {
-        // Criando uma lista de itens de pedido
+        // Criando uma mock de itens de pedido
         ItemPedido item1 = new ItemPedido("Produto 1", 100.0, 2);
         ItemPedido item2 = new ItemPedido("Produto 2", 50.0, 3);
         List<ItemPedido> itens = Arrays.asList(item1, item2);
@@ -44,7 +44,7 @@ public class PedidoTest {
 
     @Test
     public void testCalcularValorTotalSemDesconto() {
-        // Criando uma lista de itens de pedido
+        // Criando uma mock de itens de pedido
         ItemPedido item1 = new ItemPedido("Produto 1", 100.0, 2);
         ItemPedido item2 = new ItemPedido("Produto 2", 50.0, 3);
         List<ItemPedido> itens = Arrays.asList(item1, item2);
@@ -61,7 +61,7 @@ public class PedidoTest {
 
     @Test
     public void testCalcularValorTotalComDescontoMaiorQueTotal() {
-        // Criando uma lista de itens de pedido
+        // Criando uma mock de itens de pedido
         ItemPedido item1 = new ItemPedido("Produto 1", 100.0, 2);
         ItemPedido item2 = new ItemPedido("Produto 2", 50.0, 3);
         List<ItemPedido> itens = Arrays.asList(item1, item2);
@@ -78,7 +78,7 @@ public class PedidoTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testCalcularValorTotalComDescontoNegativo() {
-        // Criando uma lista de itens de pedido
+        // Criando uma mock de itens de pedido
         ItemPedido item1 = new ItemPedido("Produto 1", 100.0, 2);
         ItemPedido item2 = new ItemPedido("Produto 2", 50.0, 3);
         List<ItemPedido> itens = Arrays.asList(item1, item2);
@@ -106,7 +106,7 @@ public class PedidoTest {
         ItemPedido item1 = new ItemPedido("Produto1", 10.0, 2);
         ItemPedido item2 = new ItemPedido("Produto2", 15.0, 3);
 
-        // Criando uma lista de itens de pedido
+        // Criando uma mock de itens de pedido
         List<ItemPedido> itens = new ArrayList<>();
         itens.add(item1);
         itens.add(item2);

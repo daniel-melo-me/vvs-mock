@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: PedidoTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.161 s <<< FAILURE! -- in PedidoTest
-PedidoTest.testCalcularValorTotalComDescontos -- Time elapsed: 0.077 s <<< ERROR!
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.137 s <<< FAILURE! -- in PedidoTest
+PedidoTest.testCalcularValorTotalComDescontos -- Time elapsed: 0.073 s <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.exceptions.stacktrace.StackTraceFilter
 	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.<init>(ConditionalStackTraceFilter.java:16)
 	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:41)
