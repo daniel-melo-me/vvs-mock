@@ -13,7 +13,7 @@ public class ItemPedido {
     }
 
     // Método para calcular o subtotal do item
-    public double calcularSubtotal() {
+    public double getSubtotal() {
         return precoUnitario * quantidade;
     }
 
